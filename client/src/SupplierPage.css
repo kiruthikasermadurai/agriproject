@@ -1,0 +1,81 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.order-group, .order-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  background: #f9f9f9;
+}
+
+.order-group h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+.order-card p {
+  margin: 5px 0;
+  color: #444;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 14px;
+  color: white;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.accept-btn {
+  background: #28a745;
+}
+
+.accept-btn:hover {
+  background: #218838;
+}
+
+.otp-btn {
+  background: #ffc107;
+}
+
+.otp-btn:hover {
+  background: #e0a800;
+}
+
+.verify-btn {
+  background: #dc3545;
+}
+
+.verify-btn:hover {
+  background: #c82333;
+}
+
+input {
+  padding: 10px;
+  width: calc(100% - 22px);
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
